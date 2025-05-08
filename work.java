@@ -190,7 +190,7 @@ public class work {
     } 
 
     public static String sendPaste(String message) throws IOException{
-        final String API_KEY = "SJnlcK2-kkQb2CMxTASsUCoH4Zf-E4GV"; // api key used for pasting
+        final String API_KEY = System.getenv("PASTEBIN_API_KEY"); // api key used for pasting
         final String api_option = "paste";
 		URL url = new URL("https://pastebin.com/api/api_post.php");
 		HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
