@@ -7,11 +7,6 @@ config.txt
 out/
 bin/
 
-# IDE/project settings (optional, if you use one)
-.idea/
-*.iml
-.vscode/
-
 # OS junk
 .DS_Store
 Thumbs.db
