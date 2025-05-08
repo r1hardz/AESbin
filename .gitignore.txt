@@ -1,0 +1,17 @@
+# Ignore secret environment files
+.env
+config.txt
+
+# Java build output
+*.class
+out/
+bin/
+
+# IDE/project settings (optional, if you use one)
+.idea/
+*.iml
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
