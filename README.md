@@ -1,4 +1,4 @@
-# AEShin
+# AESbin
 
 A Java-based encryption tool using AES encryption for secure messaging.
 
